@@ -1,3 +1,6 @@
+h1 {
+    font-size: 40px;
+    font-family: Arial;
 /* ============================================
    Deakin Unit Page — Design System
    SIT223/SIT753 Professional Practice in IT
@@ -92,6 +95,8 @@ h1 {
 }
 
 h2 {
+    font-size: 25px;
+    font-family: Arial;
   font-size: 1.625rem;
   font-weight: 700;
   color: var(--deakin-navy);
@@ -99,12 +104,51 @@ h2 {
 }
 
 h3 {
+    font-family: Arial;
   font-size: 1.125rem;
   font-weight: 600;
   color: var(--color-text);
 }
 
 p {
+    font-size: 14px;
+    font-family: Arial;
+}
+
+/* Unit Details Table Styling */
+.unit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.unit-table th, 
+.unit-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.unit-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.unit-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 600px) {
+    .unit-table th, 
+    .unit-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
   font-size: 1rem;
   font-family: var(--font-stack);
   margin: 0;
