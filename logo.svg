@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" role="img" aria-label="Deakin University Logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 52" role="img" aria-label="Deakin University Logo">
   <title>Deakin University</title>
-  <!-- Deakin "D" lettermark -->
-  <rect x="0" y="0" width="60" height="80" rx="4" fill="#003c71"/>
-  <path d="M14 14 h16 q20 0 20 26 q0 26 -20 26 h-16 z" fill="#ffffff"/>
-  <!-- Wordmark -->
-  <text x="74" y="38" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#003c71" letter-spacing="3">DEAKIN</text>
-  <text x="74" y="62" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#003c71" letter-spacing="4">UNIVERSITY</text>
+  <!-- Circular Emblem Mark -->
+  <circle cx="26" cy="26" r="22" fill="#003C71" />
+  <!-- Stylized Geometric "D" Icon inside Emblem -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 13.5H25.5C32.4036 13.5 38 19.0964 38 26C38 32.9036 32.4036 38.5 25.5 38.5H16.5V13.5ZM22 19V33H25.5C29.366 33 32.5 29.866 32.5 26C32.5 22.134 29.366 19 25.5 19H22Z" fill="#FFFFFF"/>
+  <!-- University Wordmark -->
+  <text x="62" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="800" fill="#003C71" letter-spacing="2.5">DEAKIN</text>
+  <text x="62" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#4A5568" letter-spacing="3.2">UNIVERSITY</text>
 </svg>

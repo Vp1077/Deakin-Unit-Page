@@ -1,145 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home </title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
-</head>
-<body>
-    <main class="unit-container">
-        <h1>SIT223-SIT753 - Professional Practice in IT</h1>
-
-        <!-- Member 3: Content Section -->
-        <section class="unit-card" id="content">
-            <h2>Content</h2>
-            
-            <div class="content-block">
-                <h3>Unit Overview</h3>
-                <p>
-                    To be successful IT graduates need to understand the use of industry tools and practices, 
-                    the ways these tools work and connect together, and the underlying professional, ethical, 
-                    and teamwork knowledge and skills needed to put these into practice in a professional manner.
-                </p>
-            </div>
-
-            <div class="content-block">
-                <h3>Key Topics</h3>
-                <ul class="unit-list">
-                    <li>Agile project management and collaborative workflows</li>
-                    <li>Version control and continuous delivery pipelines</li>
-                    <li>IT ethics, governance, and professional codes of conduct</li>
-                    <li>Emerging technologies and industry diversity</li>
-                </ul>
-            </div>
-
-            <div class="content-block">
-                <h3>Professional Practice</h3>
-                <p>
-                    Students develop practical experience by applying professional standards, collaborative teamwork strategies, and ethical principles to real-world IT projects.
-                </p>
-            </div>
-        </section>
-
-        <!-- Member 3: Learning Outcomes Section -->
-        <section class="unit-card" id="learning-outcomes">
-            <h2>Learning Outcomes</h2>
-            <ul class="unit-list outcomes-list">
-                <li>Apply industry-standard tools, version control, and agile methodologies to IT projects.</li>
-                <li>Demonstrate ethical decision-making and adherence to professional IT codes of conduct.</li>
-                <li>Collaborate effectively within diverse teams using professional communication strategies.</li>
-                <li>Critically reflect on professional identity, career readiness, and emerging trends in the IT sector.</li>
-            </ul>
-        </section>
-
-        <!-- Member 3: Assessment Section -->
-        <section class="unit-card" id="assessment">
-            <h2>Assessment</h2>
-            <div class="assessment-box">
-                <p>Learning Portfolio: 100%</p>
-            </div>
-        </section>
-
-        <!-- Member 3: Unit Links Section -->
-        <section class="unit-card" id="unit-links">
-            <h2>Unit Links</h2>
-            <div class="links-grid">
-                <p>
-                    <a href="https://www.deakin.edu.au/unit?unit=SIT753" class="resource-link">SIT753 Professional Practice in Information Technology Unit Page</a>
-                </p>
-                <p>
-                    <a href="https://www.deakin.edu.au/students/enrolment-and-fees/fees" class="resource-link">Current students enrolment and fees</a>
-                </p>
-            </div>
-        </section>
-    </main>
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
-</head>
-<body>
-    <h1>SIT223-SIT753 - Professional Practice in IT</h1>
-
-    <h2>Unit details</h2>
-    <table class="unit-table">
-        <thead>
-            <tr>
-                <th>Detail</th>
-                <th>Information</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Year:</strong></td>
-                <td>2023 unit information</td>
-            </tr>
-            <tr>
-                <td><strong>Enrolment modes:</strong></td>
-                <td>Trimester 1: Burwood (Melbourne), Geelong, Cloud (online)</td>
-            </tr>
-            <tr>
-                <td><strong>Credit point(s):</strong></td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td><strong>Unit Chair:</strong></td>
-                <td>Trimester 1: Azadeh Ghari Neiat</td>
-            </tr>
-            <tr>
-                <td><strong>Scheduled Learning Activities:</strong></td>
-                <td>1 x 3 hour active class per week, weekly drop in support</td>
-            </tr>
-        </tbody>
-    </table>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="SIT223/SIT753 Professional Practice in IT — Deakin University unit page.">
-  <title>SIT223/SIT753 - Professional Practice in IT</title>
+  <title>SIT223/SIT753 - Professional Practice in IT | Deakin University</title>
   <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
 </head>
 <body>
 
-  <!-- ======== HEADER ======== -->
+  <!-- ======== HEADER (Member 1 UI) ======== -->
   <header class="site-header">
-    <img src="logo.svg" alt="Deakin University Logo" class="header-logo">
-    <div class="header-content">
-      <h1>SIT223/SIT753 — Professional Practice in IT</h1>
-      <nav class="header-nav" aria-label="Page navigation">
-        <a href="#overview">Overview</a>
-        <a href="#unit-details">Unit Details</a>
-        <a href="#resources">Resources</a>
-      </nav>
-      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-          <line x1="3" y1="6" x2="21" y2="6"/>
-          <line x1="3" y1="12" x2="21" y2="12"/>
-          <line x1="3" y1="18" x2="21" y2="18"/>
-        </svg>
-      </button>
+    <div class="header-container">
+      <div class="header-brand">
+        <a href="#" class="logo-link" aria-label="Deakin University Homepage">
+          <img src="logo.svg" alt="Deakin University" class="header-logo">
+        </a>
+        <span class="header-divider" aria-hidden="true"></span>
+        <div class="unit-identity">
+          <span class="unit-code-badge">SIT223 / SIT753</span>
+          <h1 class="unit-title">Professional Practice in IT</h1>
+        </div>
+      </div>
+
+      <div class="header-navigation-wrapper">
+        <nav class="header-nav" aria-label="Page navigation">
+          <a href="#overview" class="nav-link">Overview &amp; Topics</a>
+          <a href="#unit-details" class="nav-link">Unit Details</a>
+          <a href="#outcomes" class="nav-link">Outcomes &amp; Assessment</a>
+          <a href="#resources" class="nav-link">Resources</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg class="hamburger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="4" y1="7" x2="20" y2="7"/>
+            <line x1="4" y1="12" x2="20" y2="12"/>
+            <line x1="4" y1="17" x2="20" y2="17"/>
+          </svg>
+          <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
     </div>
   </header>
 
-  <!-- ======== HERO ======== -->
-  <section class="hero" aria-labelledby="hero-heading">
+  <!-- ======== HERO BANNER (Member 1 UI) ======== -->
+  <section class="hero" id="hero" aria-labelledby="hero-heading">
     <div class="container">
       <span class="hero-label">Deakin University</span>
       <h2 id="hero-heading">Professional Practice in IT</h2>
@@ -156,6 +63,9 @@
         <div class="hero-meta-item">
           <strong>Credit Points:</strong> 1
         </div>
+        <div class="hero-meta-item">
+          <strong>Level:</strong> Undergraduate / Postgraduate
+        </div>
       </div>
     </div>
   </section>
@@ -164,11 +74,47 @@
   <main class="page-content">
     <div class="container">
 
-      <!-- Unit Details -->
+      <!-- ======== OVERVIEW & KEY TOPICS (Member 1 & Member 3) ======== -->
+      <section class="section" id="overview" aria-labelledby="overview-heading">
+        <div class="section-header">
+          <h2 id="overview-heading">Unit Overview &amp; Topics</h2>
+        </div>
+        <div class="unit-card content-card">
+          <div class="content-block">
+            <h3>About This Unit</h3>
+            <p>
+              To be successful IT graduates need to understand the use of industry tools and practices,
+              the ways these tools work and connect together, and the underlying professional, ethical,
+              and teamwork knowledge and skills needed to put these into practice in a professional manner.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <h3>Key Topics</h3>
+            <ul class="unit-list">
+              <li>Agile project management and collaborative workflows</li>
+              <li>Version control and continuous delivery pipelines</li>
+              <li>IT ethics, governance, and professional codes of conduct</li>
+              <li>Emerging technologies and industry diversity</li>
+            </ul>
+          </div>
+
+          <div class="content-block">
+            <h3>Professional Practice</h3>
+            <p>
+              Students develop practical experience by applying professional standards, collaborative teamwork strategies, and ethical principles to real-world IT projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== UNIT DETAILS & TABLE (Member 1 & Member 2) ======== -->
       <section class="section" id="unit-details" aria-labelledby="details-heading">
         <div class="section-header">
           <h2 id="details-heading">Unit Details</h2>
         </div>
+        
+        <!-- Member 1 Quick Details Grid -->
         <div class="details-grid">
           <div class="detail-card">
             <div class="detail-label">Unit Code</div>
@@ -180,36 +126,98 @@
           </div>
           <div class="detail-card">
             <div class="detail-label">Enrolment Modes</div>
-            <div class="detail-value">Trimester 2: Burwood (Melbourne), Cloud (Online)</div>
+            <div class="detail-value">Trimester 1 &amp; 2: Burwood, Geelong, Cloud (Online)</div>
           </div>
           <div class="detail-card">
             <div class="detail-label">Unit Chair</div>
             <div class="detail-value">Azadeh Ghari Neiat</div>
           </div>
         </div>
+
+        <!-- Member 2 Structured Unit Table -->
+        <div class="table-wrapper">
+          <h3 class="table-title">Scheduled Unit Information</h3>
+          <table class="unit-table">
+            <thead>
+              <tr>
+                <th>Detail</th>
+                <th>Information</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Year:</strong></td>
+                <td>2023 unit information</td>
+              </tr>
+              <tr>
+                <td><strong>Enrolment modes:</strong></td>
+                <td>Trimester 1: Burwood (Melbourne), Geelong, Cloud (online)</td>
+              </tr>
+              <tr>
+                <td><strong>Credit point(s):</strong></td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td><strong>Unit Chair:</strong></td>
+                <td>Trimester 1: Azadeh Ghari Neiat</td>
+              </tr>
+              <tr>
+                <td><strong>Scheduled Learning Activities:</strong></td>
+                <td>1 x 3 hour active class per week, weekly drop in support</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
 
-      <!-- Overview -->
-      <section class="section" id="overview" aria-labelledby="overview-heading">
+      <!-- ======== LEARNING OUTCOMES & ASSESSMENT (Member 3) ======== -->
+      <section class="section" id="outcomes" aria-labelledby="outcomes-heading">
         <div class="section-header">
-          <h2 id="overview-heading">Unit Overview</h2>
+          <h2 id="outcomes-heading">Learning Outcomes &amp; Assessment</h2>
         </div>
-        <div class="content-card">
-          <h3>About This Unit</h3>
-          <p>
-            To be successful IT graduates need to understand the use of industry tools and practices,
-            the ways these tools work and connect together, and the underlying professional, ethical,
-            and teamwork knowledge and skills needed to put these into practice in a professional manner.
-          </p>
+        
+        <div class="unit-card">
+          <h3>Learning Outcomes</h3>
+          <ul class="unit-list outcomes-list">
+            <li>Apply industry-standard tools, version control, and agile methodologies to IT projects.</li>
+            <li>Demonstrate ethical decision-making and adherence to professional IT codes of conduct.</li>
+            <li>Collaborate effectively within diverse teams using professional communication strategies.</li>
+            <li>Critically reflect on professional identity, career readiness, and emerging trends in the IT sector.</li>
+          </ul>
+        </div>
+
+        <div class="assessment-box">
+          <h3>Assessment Structure</h3>
+          <p>Learning Portfolio: 100%</p>
         </div>
       </section>
 
-      <!-- Resources -->
+      <!-- ======== RESOURCES & UNIT LINKS (Member 1 & Member 3) ======== -->
       <section class="section" id="resources" aria-labelledby="resources-heading">
         <div class="section-header">
-          <h2 id="resources-heading">Resources</h2>
+          <h2 id="resources-heading">Resources &amp; Unit Links</h2>
         </div>
+        
         <div class="resources-grid">
+          <a href="https://www.deakin.edu.au/unit?unit=SIT753" class="resource-link" target="_blank" rel="noopener noreferrer">
+            <div class="resource-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <div class="resource-text">
+              <span class="resource-title">SIT753 Unit Guide Page</span>
+              <span class="resource-subtitle">Official Deakin University Unit Overview</span>
+            </div>
+            <span class="resource-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </span>
+          </a>
+
           <a href="https://www.deakin.edu.au/students/enrolment-and-fees/fees" class="resource-link" target="_blank" rel="noopener noreferrer">
             <div class="resource-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -230,6 +238,7 @@
               </svg>
             </span>
           </a>
+
           <a href="https://www.deakin.edu.au" class="resource-link" target="_blank" rel="noopener noreferrer">
             <div class="resource-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -255,14 +264,14 @@
     </div>
   </main>
 
-  <!-- ======== FOOTER ======== -->
+  <!-- ======== FOOTER (Member 1) ======== -->
   <footer class="site-footer">
     <div class="container">
       <p><span class="footer-title">SIT223/SIT753 — Professional Practice in IT</span><br>Deakin University</p>
     </div>
   </footer>
 
-  <!-- Mobile menu toggle script -->
+  <!-- ======== MOBILE MENU JS ======== -->
   <script>
     (function () {
       var toggle = document.querySelector('.menu-toggle');
@@ -270,7 +279,19 @@
       if (toggle && nav) {
         toggle.addEventListener('click', function () {
           var isOpen = nav.classList.toggle('is-open');
+          toggle.classList.toggle('is-active', isOpen);
           toggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        var navLinks = nav.querySelectorAll('.nav-link');
+        navLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            if (nav.classList.contains('is-open')) {
+              nav.classList.remove('is-open');
+              toggle.classList.remove('is-active');
+              toggle.setAttribute('aria-expanded', 'false');
+            }
+          });
         });
       }
     })();
