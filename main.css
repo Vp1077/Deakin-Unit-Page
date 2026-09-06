@@ -567,6 +567,14 @@ p {
   color: var(--deakin-navy);
 }
 
+.hurdle-text {
+  font-size: 0.9375rem !important;
+  font-weight: 500 !important;
+  color: var(--deakin-navy);
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
 /* ============================================
    8. Resources & Link Cards (Member 1 & Member 3)
    ============================================ */
